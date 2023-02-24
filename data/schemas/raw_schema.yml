@@ -1,0 +1,119 @@
+schema_type: dataframe
+version: 0.13.4
+columns:
+  OrderNumber:
+    unique: true
+    dtype: str
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+  ClientName:
+    unique: false
+    dtype: str
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+  ProductName:
+    unique: false
+    dtype: str
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+  ProductType:
+    unique: false
+    dtype: str
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+  UnitPrice:
+    unique: false
+    dtype: int64
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+  ProductQuantity:
+    unique: false
+    dtype: int64
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+  TotalPrice:
+    unique: false
+    dtype: int64
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+  Currency:
+    unique: false
+    dtype: str
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+  DeliveryAddress:
+    unique: false
+    dtype: str
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+  DeliveryCity:
+    unique: false
+    dtype: str
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+  DeliveryPostcode:
+    unique: false
+    dtype: str
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+  DeliveryCountry:
+    unique: false
+    dtype: str
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+  DeliveryContactNumber:
+    unique: false
+    dtype: str
+    nullable: true
+    coerce: true
+    required: true
+    regex: false
+  PaymentType:
+    unique: false
+    dtype: str
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+  PaymentBillingCode:
+    unique: false
+    dtype: str
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+  PaymentDate:
+    unique: false
+    dtype: str
+    nullable: false
+    coerce: false
+    required: true
+    regex: false
+checks: null
+index: null
+coerce: false
+strict: false
